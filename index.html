@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, Nazwa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main class="page">
+    <section class="intro" id="intro">
+      <p class="eyebrow">A SPECIAL DAY</p>
+      <h1>Happy Birthday,</h1>
+      <p class="name">Nazwa<span class="heart">♡</span></p>
+      
+      
+      <button class="primary-button" id="openButton">Open Your Surprise <span>→</span></button>
+      <p class="small-note">A little something, made for you</p>
+    </section>
+    <section class="surprise hidden" id="surprise">
+      <p class="eyebrow">A WISH FOR YOU</p>
+      <div class="cake" aria-label="Ilustrasi kue ulang tahun">
+        <div class="flame" id="flame"></div><div class="candle"></div>
+        <div class="cake-top"></div><div class="cake-body"></div><div class="cake-plate"></div>
+      </div>
+      <h2>Make a wish, <em>Nazwa</em></h2>
+      <p class="typed-message" id="typedMessage" data-message="Met ulang tahun Wawa.."></p>
+      <button class="secondary-button" id="letterButton">Buka surat kecil <span>♡</span></button>
+    </section>
+    <section class="letter hidden" id="letter">
+      <div class="letter-card">
+        <p class="eyebrow">A LITTLE LETTER</p>
+        <h2>Untuk Nazwa,</h2>
+        <p>Maaf Kalau telat, aku cuma mau bilang selamat ulang tahun Nazwa umurmu sekarang udah genap 20, jadi jaga kesehatan makan jangan di tunda-tunda sakit magh itu rasanya gk enak aku pernah ngerasain solanya. Dan semangat belajarnya.</p>
+        <p class="signature">With warm wishes <span></span></p>
+        <button class="text-button" id="closeLetter">Kembali</button>
+      </div>
+    </section>
+    <footer>Made with care · 2026</footer>
+  </main>
+  <div class="confetti-layer" id="confettiLayer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
